@@ -10,7 +10,7 @@ function arrows() {
     //lbs += 2.5; //GMX25 + long32#@27 + 22@14 string
 
     spine = -100 * length + 4000 - 100 * (lbs - 18.5) / 4
-    if(spine >= 280) {
+    if(spine >= 280 && spine <= 2000) {
         document.getElementsByClassName('spine')[0].innerHTML = 'spine: ' + spine.toFixed(0)
     } else {
         document.getElementsByClassName('spine')[0].innerHTML = 'spine: out of range'
