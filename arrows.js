@@ -1,4 +1,3 @@
-//http://www.winandwinblack.com/pdf/arrows-selection-guide.pdf
 function arrows() {
     var lbs = 0, length = 0, point = 0, spine = 0
     
@@ -11,6 +10,6 @@ function arrows() {
     //lbs += 2.5; //GMX25 + long32#@27 + 22@14 string
 
     spine = -100 * length + 4000 - 100 * (lbs - 18.5) / 4;
-    document.getElementsByClassName('spine')[0].innerHTML = 'Spine: ' + spine
+    document.getElementsByClassName('spine')[0].innerHTML = 'spine: ' + spine
     console.log(spine)
 }
