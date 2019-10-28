@@ -12,6 +12,7 @@
             font-style: italic;
             font-size: small;
         }
+
         .message {
             color: red;
         }
@@ -20,25 +21,21 @@
 
 <body>
     <form name="arrow">
-        Draw weight: <input type="value" id="lbs" maxlength="4" size="4" placeholder = "17-69">pounds<br>
-        Length of arrow: <input type="value" id="inches" maxlength="5" size="5" placeholder = "21-33">inches<br>
-        Weight of point: <input type="value" id="point" maxlength="5" size="5" placeholder = "50-150">grains<br>
+        Draw weight (17 - 69): <input type="value" id="lbs" maxlength="4" size="4" value="32">pounds<br>
+        Length of arrow (21 - 33): <input type="value" id="inches" maxlength="5" size="5" value="28">inches<br>
+        Weight of point (50 - 150): <input type="value" id="point" maxlength="5" size="5" value="100">grains<br>
     </form>
     <br />
     <button onclick="arrows()">Calculate</button>
-    <br />  
     <br />
-    Spine: <span class='spine'></span><br />
-    Message: <span class='message'></span>
-    <br />
-    <br />
-    
-        <img src="arrow-selecton-guide.png"width="800"/>
-        <p><a href="http://www.winandwinblack.com/pdf/arrows-selection-guide.pdf"
+    <p>Spine (300 - 2000): <span class='spine'></span>
+        <br />
+        Message: <span class='message'></span></p>
+    <img src="arrow-selecton-guide.png" width="800" />
+    <p><a href="http://www.winandwinblack.com/pdf/arrows-selection-guide.pdf"
             target="_blank">http://www.winandwinblack.com/pdf/arrows-selection-guide.pdf</a></p>
-                
-        <p class="git"><a href="https://github.com/lbarjak/arrows"
-            target="_blank">https://github.com/lbarjak/arrows</a></p>
+
+    <p class="git"><a href="https://github.com/lbarjak/arrows" target="_blank">https://github.com/lbarjak/arrows</a></p>
 </body>
 
 </html>
